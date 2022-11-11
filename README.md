@@ -13,6 +13,8 @@ ____
 - ### Нижний док
     - plank
     - plank-theme-nordic-night-git (тема для дока)
+- ### Поиск
+    - ulauncher
 - ### Тема
     - nordic-theme
     - nordic-wallpapers (обои)
@@ -99,6 +101,24 @@ font_size 13.0
 ```
 eval "$(starship init bash)"
 ```
+
+## Ulauncher
+### Тема
+```
+mkdir -p ~/.config/ulauncher/user-themes
+git clone https://github.com/habibimedwassim/WhiteSur-Nord-ulauncher.git \
+  ~/.config/ulauncher/user-themes/WhiteSur-Nord-ulauncher
+```
+### Расширения
+> В настройках для добавления расширения нужно указать ссылку на github репозиторий.
+- https://github.com/lighttigerXIV/ulauncher-terminal-runner-extension/
+- https://github.com/leogouveia/ulauncher-npmjs
+
+### Параметры
+- Нужно включить пункт `Launch at Login`
+- Выбрать тему WhiteSur Nord
+- Удалить все `Shortcuts` (Если не нужны)
+- В расширении `Terminal Runner` изменить `Terminal` на `kitty`
 
 ## NVM (Управление версиями nodejs)
 [Github NVM](https://github.com/nvm-sh/nvm#installing-and-updating)
