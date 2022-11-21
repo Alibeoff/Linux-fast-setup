@@ -23,7 +23,10 @@ ____
     - kitty (терминал)
     - neovim
     - tmux
-    - starship
+    - starship | zsh + oh my zsh
+- ### Полезные шрифты
+    - ttf-twemoji
+    - nerd-fonts-git (Собирается очень долго)
 - ### Софт
     - firefox-developer-edition
     - discord
