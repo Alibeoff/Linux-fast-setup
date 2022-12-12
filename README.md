@@ -82,6 +82,10 @@ ____
 Настройте панель как вам удобно и расположите все необходимые апплеты. Апплет меню стоит заменить на `Cinnamenu`.
 
 ### Терминал
+Сделать kitty терминалом по умолчанию
+```
+ gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
+```
 Откройте терминал `kitty` и напишите команду для выбора тем
 ```
 kitty +kitten themes
