@@ -100,8 +100,12 @@ kitty +kitten themes
 background_opacity 0.85
 dynamic_background_opacity yes
 
+#Шрифт
+font_family JetBrainsMono Nerd Font 
+disable_ligatures never
+
 # Размер шрифта
-font_size 13.0
+font_size 14.0
 ```
 
 Отредактируйте файл `~/.bashrc` и добавьте в него команду для активации `starship`
